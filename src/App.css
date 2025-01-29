@@ -1,0 +1,20 @@
+body {
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    310deg,
+    rgba(131, 58, 180, 0.3323529240797881) 0%,
+    rgba(29, 182, 253, 0.3435574058725053) 62%,
+    rgba(40, 189, 116, 0.2903361173570991) 100%
+  );
+}
+body > #root {
+  min-height: 100vh;
+}
+
+.vertical-text {
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+}
+.horizontal-text {
+  writing-mode: horizontal-tb;
+}

@@ -1,0 +1,19 @@
+.controls-info {
+  margin: 10px;
+  transform: translateX(150%);
+}
+.controls-info div div {
+  margin-top: 10px;
+}
+
+.controls {
+  transform: translateX(80%);
+}
+.controls:hover {
+  animation-duration: 350ms;
+  transform: translateX(0);
+}
+.controls:hover > .controls-info {
+  animation-duration: 350ms;
+  transform: translateX(0);
+}
